@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/layout/activity_login.xml" value="0.1265625" />
+        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/drawable/standard.xml" value="0.1035" />
+        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/drawable/standard_button_rounded.xml" value="0.1035" />
+        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/layout/activity_main.xml" value="0.1265625" />
-        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/layout/activity_startup.xml" value="0.1" />
+        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/layout/activity_signup.xml" value="0.2234375" />
+        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/layout/activity_startup.xml" value="0.2" />
         <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/layout/activity_startup2.xml" value="0.1265625" />
         <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/layout/item.xml" value="0.10384615384615385" />
       </map>
