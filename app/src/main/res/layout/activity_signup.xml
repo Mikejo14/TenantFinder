@@ -30,7 +30,7 @@
         app:layout_constraintTop_toBottomOf="@+id/emailET" />
 
     <Button
-        android:id="@+id/loginButton"
+        android:id="@+id/signupbutton"
         style="@style/standard_button"
         android:layout_width="@dimen/standard_width"
         android:layout_height="@dimen/standard_height"

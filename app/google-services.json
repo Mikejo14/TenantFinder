@@ -1,13 +1,14 @@
 {
   "project_info": {
     "project_number": "180708250823",
+    "firebase_url": "https://tenantfinder-dde3b-default-rtdb.firebaseio.com",
     "project_id": "tenantfinder-dde3b",
     "storage_bucket": "tenantfinder-dde3b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:180708250823:android:1842f3d230aa373e165ae2",
+        "mobilesdk_app_id": "1:180708250823:android:16c91c3a49b6209b165ae2",
         "android_client_info": {
           "package_name": "com.example.tenantfinder"
         }

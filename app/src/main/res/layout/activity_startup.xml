@@ -12,6 +12,7 @@
         android:layout_width="@dimen/startup_logo_width"
         android:layout_height="@dimen/startup_logo_height"
         android:layout_margin="@dimen/startup_logo_margin"
+        android:layout_gravity="center"
         app:srcCompat="@drawable/tinder_clone_logo" />
 
     <Button

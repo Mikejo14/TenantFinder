@@ -3,14 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/drawable/chat_box_bg_rounded.xml" value="0.1" />
+        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/drawable/chat_current_message_bg_rounded.xml" value="0.1" />
+        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/drawable/chat_other_message_bg_rounded.xml" value="0.1" />
+        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/drawable/navigation_shadow.xml" value="0.1125" />
+        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/drawable/send_button_rounded.xml" value="0.1" />
         <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/drawable/standard.xml" value="0.1035" />
         <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/drawable/standard_button_rounded.xml" value="0.1035" />
+        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/drawable/standard_button_rounded_grey.xml" value="0.1125" />
+        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/drawable/tab_matches.xml" value="0.1125" />
+        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/drawable/tab_profile.xml" value="0.1125" />
+        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/drawable/tab_swipe.xml" value="0.1125" />
+        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/layout/activity_chat.xml" value="0.264" />
         <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/layout/activity_main.xml" value="0.1265625" />
         <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/layout/activity_signup.xml" value="0.2234375" />
         <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/layout/activity_startup.xml" value="0.2" />
         <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/layout/activity_startup2.xml" value="0.1265625" />
-        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/layout/item.xml" value="0.10384615384615385" />
+        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/layout/activity_user_info.xml" value="0.2563405797101449" />
+        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/layout/fragment_matches.xml" value="0.2563405797101449" />
+        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/layout/fragment_profile.xml" value="0.2563405797101449" />
+        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/layout/fragment_profile2.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/layout/fragment_swipe.xml" value="0.264" />
+        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/layout/item.xml" value="0.264" />
+        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/layout/item_chat.xml" value="0.2563405797101449" />
+        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/layout/item_current_user_message.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/mic_j/AndroidStudioProjects/TenantFinder/app/src/main/res/layout/item_other_user_message.xml" value="0.22435897435897437" />
       </map>
     </option>
   </component>

@@ -7,20 +7,23 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import com.example.tenantfinder.R
+import com.example.tenantfinder.user
+import com.example.tenantfinder.util.DATA_USERS
 import com.google.android.gms.tasks.Task
 import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.ktx.Firebase
+import com.google.firebase.database.FirebaseDatabase
 import kotlinx.android.synthetic.main.activity_signup.*
 
 class SignupActivity : AppCompatActivity() {
 
+    private val firebaseDatabase=FirebaseDatabase.getInstance().reference
     private val firebaseAuth=FirebaseAuth.getInstance()
     private val firebaseAuthListener=FirebaseAuth.AuthStateListener {
-        val user = firebaseAuth.currentUser
+        val user=firebaseAuth.currentUser
         if (user != null){
-        startActivity(MainActivity.newIntent(this))
-        finish()
+            startActivity(TenantActivity.newIntent(this))
+            finish()
         }
     }
 
@@ -30,8 +33,8 @@ class SignupActivity : AppCompatActivity() {
     }
 
     override fun onStart() {
-        super.onStart()
         firebaseAuth.addAuthStateListener(firebaseAuthListener)
+        super.onStart()
     }
 
     override fun onStop() {
@@ -46,11 +49,17 @@ class SignupActivity : AppCompatActivity() {
                     if (!task.isSuccessful){
                         Toast.makeText(this,"Signup Error ${task.exception?.localizedMessage}",Toast.LENGTH_SHORT).show()
                     }
+                    else{
+                        val email = emailET.text.toString()
+                        val userId = firebaseAuth.currentUser?.uid?:""
+                        val user = user(userId,"","",email,"","","")
+                        firebaseDatabase.child(DATA_USERS).child(userId).setValue(user)
+                    }
                 }
         }
     }
 
     companion object{
-        fun newIntent(context: Context?)= Intent(context,SignupActivity::class.java)
+        fun newIntent(context: Context?)= Intent(context, SignupActivity::class.java)
     }
 }
